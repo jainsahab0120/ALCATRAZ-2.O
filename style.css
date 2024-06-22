@@ -1,0 +1,151 @@
+*{
+    background-color: antiquewhite;
+    /* width: 100%; */
+    overflow: hidden;
+}
+    canvas{
+    
+    border: 2px solid black;
+    background-color:black;
+    border: 5px solid grey;
+        align-self: center;
+        justify-self: center;
+   
+}
+.canvas-container {
+    width: 100%;
+    text-align:center;
+    
+ }
+ 
+ canvas {
+    display: inline;
+ }
+ .upper{
+    /* height: 20%;
+     */
+    width: 90%;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    padding: 4px;
+    margin: 0 auto;
+
+ }
+ .button-area{
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    
+ }
+ button{
+    width: 100%;
+    margin: 0 auto;
+    /* border-style: none;
+     */
+    
+   
+    /* border-radius: 25px ; */
+    border: none;
+    background-color: antiquewhite;
+    transition: all 0.5s linear ;
+
+ }
+ #start{
+    color: cornflowerblue;
+ }
+ #gameover{
+    color: brown;
+
+ 
+ }
+h1{
+    padding: 0;
+    margin: 10px;
+    color:cadetblue;
+    color: #27403f;
+    text-align: center;
+    font-family: sans-serif;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+button:active{
+    transform: scale(0.85);
+}
+
+
+/* @media (min-width: 600px) {
+    Canvas {
+       width: 400px;
+       height: 500px;
+   }
+
+   #score {
+       font-size: 28px;
+   }
+}
+
+@media (min-width: 766px) {
+   Canvas {
+       width: 750px;
+       height: 600px;
+   }
+
+   #score {
+       font-size: 20px;
+   }
+}
+
+/* Media query for desktops and larger screens */
+/* @media (min-width: 1024px) {
+   Canvas {
+       width: 1000px;
+       height: 450px;
+   }
+
+   #score {
+       font-size: 32px;
+   }
+} */
+
+/* Media query for mobile devices */
+/* @media (max-width: 599px) {
+   Canvas {
+       width: 500px;
+       height: 500px;
+   }
+
+   #score {
+       font-size: 20px;
+   }
+/* } */ 
+
+ @media (max-width: 599px) {
+   canvas {
+       width: 90vw;
+       height: 90vw;
+   }
+}
+
+/* Media query for medium devices (tablets)  */
+ @media (min-width: 600px) and (max-width: 1023px) {
+   canvas {
+       width: 80vw;
+       height: 80vw;
+   }
+} 
+
+
+/* Media query for large devices (desktops) */ 
+@media (min-width: 1024px) {
+   canvas {
+       width: 88%;
+        height: 60%;
+    } 
+}
+
