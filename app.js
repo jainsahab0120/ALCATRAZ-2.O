@@ -297,4 +297,3 @@ function khelkhatam(newHeadx, newHeady) {
 
 // what to improve 
 // speed is not decreasing
-// food is generating on snake due to random 
